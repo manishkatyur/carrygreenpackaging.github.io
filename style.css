@@ -38,3 +38,17 @@ p
 {
 	background-color: #7BB12B;
 }
+#slider_hero
+{
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+.carousel-inner > .carousel-item > img
+{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+}

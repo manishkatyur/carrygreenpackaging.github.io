@@ -82,25 +82,36 @@ p
 	position: absolute;
 	z-index: 1;
 }
-#slider_hero > .hero > .col-sm-6
+#slider_hero > .hero > .box-hero
 {	
 	padding: 30px;
 	border-radius: 10px;
 	background-color: rgba(0, 0, 0, 0.7);
 }
-#slider_hero > .hero > .col-sm-6 > h1, #slider_hero > .hero > .col-sm-6 > p
+#slider_hero > .hero > .box-hero > h1, #slider_hero > .hero > .box-hero > p
 {	
 	color: #fff !important;
 }
-#slider_hero > .hero > .col-sm-6> .btn
+#slider_hero > .hero > .box-hero> .btn
 {	
 	color: #fff !important;
 	border: 2px solid #7BB12B;
 }
-#slider_hero > .hero > .col-sm-6> .btn:hover
+#slider_hero > .hero > .box-hero> .btn:hover
 {	
 	color: #fff !important;
 	background-color: #7BB12B;
 	border: none;
 	color: #fff;
+}
+
+@media only screen and (max-width: 768px)
+{
+	body{
+		background-color: #111;
+	}
+	.topBar
+	{
+		display: none !important;
+	}
 }
